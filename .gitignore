@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Vector store data (regenerated per video)
+data/chroma/*
+!data/chroma/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
